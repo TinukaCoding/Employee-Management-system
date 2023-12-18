@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Employee Management system.exe" version="1.0.0.2" publicKeyToken="6e834ec55da76be0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Employee Management system" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Employee Management system.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Employee Management system.exe" size="880528">
+      <assemblyIdentity name="Employee Management system" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RyYz+JqTsFaIgJ4YW94Dc19cl6+NS5gf0ls6cbi8d2I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Employee Management system.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=pc\User" issuerKeyHash="483921f1103247ae0ab906b46915034515091e14" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>knsaMOf/9Hyy2Av59a7tXG+03p029ecgErVpeyjdxQg=</DigestValue></Reference></SignedInfo><SignatureValue>sF3Gv++Ep/2lbR4Z8tliZcbuIMlPh4nrsGizDvcySP3DCOI04jWCh728srF0x4OiZfDpWrhh7kRIdYNPXUsi7gIb+pwXOI8m94NomMTV3mNR0RZnm8c7L9cDrqUt5MFuvSpBV08anRSFJcjXeY8x+Gg7y1I9wuPXNx57XGvBCRk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wNGfrAd9o4DTklGCVQh9QkIwdBba8tjH4Tj3ZgVLYYyJm0GBzqvh1UpLrELZls68dYiG7qsHKMU1aYi5TBjmtgw4h8lJO9SMXVBI9M3utS3rDt0N+Fx3DsRFuGgG7ESlxCAIjXKfYK04cLZos+Y9XHLJ9O30RB7F11LVDz9z2+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="08c5dd287b69b51220e7f5369ddeb46f5cedaef5f90bd8b27cf4ffe7301a7b92" Description="" Url=""><as:assemblyIdentity name="Employee Management system.exe" version="1.0.0.2" publicKeyToken="6e834ec55da76be0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=pc\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>U0CmTCYVNGGRJ8g8Jb/mYghZ3FRzqbLz4p2NCP4h0/4=</DigestValue></Reference></SignedInfo><SignatureValue>nTF5HydhKXWI0tIQBIpvWDFnFkVVuXEqXiIHXhrE7u+8fzS1Kxb5iKR5rwxEPERSVOmyW2Y9Hj89c5y1YlO8qqBaWD2tBJEZ5jjSH+Bsh8+xy2hwnam1lWLljjBeYJdKlwbVdTbPGQjdy8agkPOTqqoR3zQwCDY0dfIIid0GQtU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wNGfrAd9o4DTklGCVQh9QkIwdBba8tjH4Tj3ZgVLYYyJm0GBzqvh1UpLrELZls68dYiG7qsHKMU1aYi5TBjmtgw4h8lJO9SMXVBI9M3utS3rDt0N+Fx3DsRFuGgG7ESlxCAIjXKfYK04cLZos+Y9XHLJ9O30RB7F11LVDz9z2+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCAR6gAwIBAgIQJLxphgwmWYtPeUspQyCFqjANBgkqhkiG9w0BAQsFADAZMRcwFQYDVQQDHg4AcABjAFwAVQBzAGUAcjAeFw0yMzEyMTIyMjI3NDNaFw0yNDEyMTIwNDI3NDNaMBkxFzAVBgNVBAMeDgBwAGMAXABVAHMAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDA0Z+sB32jgNOSUYJVCH1CQjB0Ftry2MfhOPdmBUthjImbQYHOq+HVSkusQtmWzrx1iIbuqwcoxTVpiLlMGOa2DDiHyUk71IxdUEj0ze61LesO3Q34XHcOxEW4aAbsRKXEIAiNcp9grThwtmiz5j1ccsn07fREHsXXUtUPP3Pb4QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACVFjPE1KbbsMpvPXyn01WJjFDoodH0//s/e5WT6Vm3hatV/a9PEA9apQs54mK/+MlhCEO/kDFnHvZphEF3LDMQy99dMrYDDVUAWq4wKcm5LCVK3qjlWSIcF3cPX7ddQs4LFnwIQdH7+nmjVpuuXoLq6G8HKNyGIMg1Tq0X8G5hv</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
